@@ -5,7 +5,8 @@ public class Levenshtein {
         b = b.toLowerCase();
         // i == 0
       
-        //Deneme
+        //Deneme sd
+        //DENEME
         int [] costs = new int [b.length() + 1];
         for (int j = 0; j < costs.length; j++)
             costs[j] = j;
