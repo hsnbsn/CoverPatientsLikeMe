@@ -1,12 +1,12 @@
+package Algoritms;
+
 public class Levenshtein {
  
     public static int distance(String a, String b) {
         a = a.toLowerCase();
         b = b.toLowerCase();
         // i == 0
-      
-        //Deneme sd
-        //DENEME
+
         int [] costs = new int [b.length() + 1];
         for (int j = 0; j < costs.length; j++)
             costs[j] = j;
